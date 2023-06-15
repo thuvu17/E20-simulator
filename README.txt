@@ -1,7 +1,6 @@
 Thu Vu
 tnv2002@nyu.edu
 
-Assignment completed. No know bugs.
 
 The program read in the machine code, execute the instructions, simulate caching and display
 cache configuration.
@@ -30,7 +29,3 @@ How caching works in my program:
    IF 2 CACHE: Use the same function as 1 cache. The logic should still apply. If L1 HIT,
    skip L2. If L1 MISS, using the same function, we would've already write to L1, we can
    safely move to L2. L2 would then use the same function (move up tag if HIT, write if MISS)
-
-
-REFERENCES: 
-E20 manual
